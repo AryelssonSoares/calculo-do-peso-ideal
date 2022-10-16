@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.peso-ideal {
+    background-color: rgb(214, 253, 240);
+    width: 30vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+
+.peso-ideal h1 {
+    font-size: 2.5rem;
+    color: rgb(92, 92, 253);
+}
+
+.peso-ideal p {
+    color: rgb(58, 58, 163);
+    font-size: 1.8rem;
+}
+
+.peso-ideal #inpNome, #inpAltura{ 
+    border-radius: 5px;
+    height: 3vh;
+    text-indent: 10px;
+}
+
+#btnCalcular, #btnLimpar{
+    background-color: white;
+    color: rgb(58, 58, 163);
+    border-radius: 5px;
+    width: 21vh;
+    height: 3.5vh;
+    text-align: center;
+}
+
+#btnCalcular:hover, #btnLimpar:hover {
+    background-color: rgba(162, 240, 240, 0.808);
+    color: blue;
+}
+
+#outResposta {
+    background-color: white;
+    width: 45vh;
+    height: 3.5vh;
+    font-size: 1.5em;
+    color: blue;
+    text-align: center;
+}
